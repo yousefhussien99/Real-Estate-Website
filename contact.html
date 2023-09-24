@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--My Title-->
+    <title>Real Estate Website</title>
+    <!-- Bootstrap CSS -->
+    <link  rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--My Icon-->
+    <link  rel="icon" href="imgs/icon.png" type="image/png">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg position-fixed z-3 w-100 ">
+    <div class="container d-flex align-items-center">
+    <!--Navbar Logo Start-->
+    <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="logo"></a>
+    <!--Navbar Logo End-->
+    <!--Navbar Dropdown Start-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Navbar Dropdown End-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Nav-Item Start -->
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="index.html#popular">Popular</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="index.html#services">Services</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="index.html#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="index.html#review">Review</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="index.html#questions">Questions</a>
+        </li>
+        <li class="nav-item ">
+        <a class=" btn btn-outline-warning btn-sm" onclick="location.href='contact.html#contact'"> Contact Us</a>
+        </li>
+    </ul>
+    <!-- Nav-Item End -->
+    </div>
+</div>
+</nav>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 co-md-4">
+                <form action="mailto:yousefhussien919@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">YourName</label>
+                    <input type="text" id="name" placeholder="Your Name"  required>
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="col-lg-7 co-md-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13820.956870285283!2d31.15958365!3d30.001286800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1695544377520!5m2!1sar!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Navbar End -->
+
+<!-- Footer Start-->
+<footer class="bg-dark text-white-50 p-3  ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5>Salord</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+          </p>
+          <div class="icons">
+            <i class="fab fa-facebook-f pe-2"></i>
+            <i class="fab fa-twitter pe-2"></i>
+            <i class="fab fa-instagram pe-2"></i>
+            <i class="fab fa-linkedin-in pe-2"></i>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled " >
+            <li><a href="#">Home</a></li>
+            <li><a href="#popular">Popular</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#questions">Questions</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5>Our Services</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#popular">Popular</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#questions">Questions</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5>Our Services</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#popular">Popular</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a
+            ></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#questions">Questions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Footer End-->
+    <script src="js/main.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
